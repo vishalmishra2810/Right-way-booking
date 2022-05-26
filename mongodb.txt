@@ -1,0 +1,21 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyD10nRfNW5eSESa1vCaLCqlmSpW7ajGChk",
+  authDomain: "right-way-booking.firebaseapp.com",
+  projectId: "right-way-booking",
+  storageBucket: "right-way-booking.appspot.com",
+  messagingSenderId: "815605739800",
+  appId: "1:815605739800:web:2d8ef8cc0a078540146e6d",
+  measurementId: "G-L9ZFYPGJX1"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
